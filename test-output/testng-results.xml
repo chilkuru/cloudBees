@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-19T19:31:23 IST" name="Suite" finished-at="2025-05-19T19:31:59 IST" duration-ms="35992">
+    <groups>
+    </groups>
+    <test started-at="2025-05-19T19:31:23 IST" name="CloudBees Core Product Functionality Testing - Test 1" finished-at="2025-05-19T19:31:59 IST" duration-ms="35992">
+      <class name="cloudBees.tests.TestCase">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:cloudBees.tests.TestCase@5b40ceb]" started-at="2025-05-19T19:31:23 IST" name="initialize" finished-at="2025-05-19T19:31:39 IST" duration-ms="15505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testCloudBeesAssesment()[pri:0, instance:cloudBees.tests.TestCase@5b40ceb]" started-at="2025-05-19T19:31:39 IST" name="testCloudBeesAssesment" finished-at="2025-05-19T19:31:58 IST" duration-ms="19040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloudBeesAssesment -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:cloudBees.tests.TestCase@5b40ceb]" started-at="2025-05-19T19:31:58 IST" name="teardown" finished-at="2025-05-19T19:31:59 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- cloudBees.tests.TestCase -->
+    </test> <!-- CloudBees Core Product Functionality Testing - Test 1 -->
+  </suite> <!-- Suite -->
+</testng-results>
