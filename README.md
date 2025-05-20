@@ -67,7 +67,7 @@ Before setting up the project, ensure the following are installed:
 
 For a comprehensive walkthrough of the framework and its functionalities, refer to the demo video:
 
-[![CloudBees Framework Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1AcA02sDE1v72I4sxvrTygk1_OHug_bOS/view?usp=sharing)
+[![CloudBees Framework Demo](https://drive.google.com/file/d/1AcA02sDE1v72I4sxvrTygk1_OHug_bOS/view?usp=drive_link)
 
 *Note: Replace `VIDEO_ID` with the actual YouTube video ID if available.*
 
