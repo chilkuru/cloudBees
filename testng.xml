@@ -7,7 +7,8 @@
 
 	<test name="CloudBees Core Product Functionality Testing - Test 1">
 		<classes>
-			<class name="cloudBees.tests.TestCase" />
+			<class name="cloudBees.tests.TestCase1" />
+			<class name="cloudBees.tests.TestCase2_GIT" />
 		</classes>
 	</test>
 

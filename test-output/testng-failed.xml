@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="cloudBees.utilities.Listeners"/>
-  </listeners>
-  <test thread-count="1" parallel="tests" name="CloudBees Core Product Functionality Testing - Test 1(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cloudBees.tests.TestCase">
+      <class name="cloudBees.tests.TestCase2_GIT">
         <methods>
-          <include name="initialize"/>
-          <include name="teardown"/>
-          <include name="testCloudBeesAssesment"/>
+          <include name="updateFileInGitRepo"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- cloudBees.tests.TestCase -->
+      </class> <!-- cloudBees.tests.TestCase2_GIT -->
     </classes>
-  </test> <!-- CloudBees Core Product Functionality Testing - Test 1(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\chilkr2\OneDrive - Medtronic PLC\Desktop\MedTronic DeskTop Items\Interview Related\CloudBees\testng.xml</span>
+                    <span>C:\Users\chilkr2\OneDrive - Medtronic PLC\Desktop\MedTronic DeskTop Items\Interview Related\CloudBees\repo\cloudBees\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="cloudBees.tests.TestCase" class="method navigator-link" hash-for-method="testCloudBeesAssesment">testCloudBeesAssesment</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="cloudBees.tests.TestCase1" class="method navigator-link" hash-for-method="testCloudBeesAssesment">testCloudBeesAssesment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="cloudBees.tests.TestCase2_GIT" class="method navigator-link" hash-for-method="updateFileInGitRepo">updateFileInGitRepo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -122,7 +127,22 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">cloudBees.tests.TestCase</span>
+              <span class="class-name">cloudBees.tests.TestCase2_GIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateFileInGitRepo">
+                  </a> <!-- updateFileInGitRepo -->
+                  <span class="method-name">updateFileInGitRepo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cloudBees.tests.TestCase1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -137,7 +157,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\chilkr2\OneDrive - Medtronic PLC\Desktop\MedTronic DeskTop Items\Interview Related\CloudBees\testng.xml</span>
+            <span class="header-content">C:\Users\chilkr2\OneDrive - Medtronic PLC\Desktop\MedTronic DeskTop Items\Interview Related\CloudBees\repo\cloudBees\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -149,7 +169,8 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;CloudBees Core Product Functionality Testing - Test 1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;cloudBees.tests.TestCase&quot;/&gt;
+      &lt;class name=&quot;cloudBees.tests.TestCase1&quot;/&gt;
+      &lt;class name=&quot;cloudBees.tests.TestCase2_GIT&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- CloudBees Core Product Functionality Testing - Test 1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -163,7 +184,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">CloudBees Core Product Functionality Testing - Test 1 (1 class)</span>
+                <span class="test-name">CloudBees Core Product Functionality Testing - Test 1 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,16 +210,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCloudBeesAssesment')
-data.setCell(0, 2, 'cloudBees.tests.TestCase')
-data.setCell(0, 3, 19040);
+data.setCell(0, 1, 'updateFileInGitRepo')
+data.setCell(0, 2, 'cloudBees.tests.TestCase2_GIT')
+data.setCell(0, 3, 10512);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCloudBeesAssesment')
+data.setCell(1, 2, 'cloudBees.tests.TestCase1')
+data.setCell(1, 3, 10219);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -224,19 +249,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">cloudBees.tests.TestCase</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="chronological-class-name">cloudBees.tests.TestCase1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCloudBeesAssesment</span>
-                <span class="method-start">15526 ms</span>
+                <span class="method-start">8155 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">34575 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">18389 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cloudBees.tests.TestCase2_GIT</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">19576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateFileInGitRepo</span>
+                <span class="method-start">51650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">62168 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
